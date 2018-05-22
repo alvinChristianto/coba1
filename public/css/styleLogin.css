@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.mainLogin{
+	width: 100%;
+	height: 100%;
+	background: url('../img/pexels-photo-884454 - Copy.jpeg') no-repeat;
+	display: table;
+	background-size: cover;
+}
+.loginWrapper{
+	margin: 30px;
+	height: 500px;
+	width : 200px;
+	background: url('../img/pexels-photo-890710.jpeg') no-repeat;
+
+}
+.h2-login{
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 40px;
+
+}
+.h3-label{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.inputLogin{
+	width: 75%;
+    padding: 10px 5px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+.buttonSubmit {
+	 color: #3cbc8d;
+	 font-size: 20px;
+	 width: 75%;
+	 border: none;
+	 padding: 10px 5px;
+     margin: 5px 0;
+     text-transform: uppercase;
+     transition: 0.3s;
+}
+.buttonSubmit:hover{
+	background: #fff;
+}
+
+.registMid{
+	background: #f7f7f7;
+}
+.reg{
+	background: #d6eaec;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+	.content-text h1{
+		margin :-35px;
+		font-family: 'Lilita One', serif;
+		padding-top: 100px;
+		color: #ffaa6b;
+		font-size: 100px;
+	}
+	.content-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 37px;
+		color: #cecdcc;
+	}
+	.logo-footer{
+		width: 54%;
+	    padding-left: 4px;
+	    padding-top: 19px;
+	    margin-left: 52px;
+	}
+	.footer-text h1{
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+	}
+	.footer-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+	}
+
+}
+@media (max-width: 767px) {
+	.content-text h1{
+		margin :-25px;
+		font-family: 'Lilita One', serif;
+		padding-top: 30px;
+		color: #ffaa6b;
+		font-size: 80px;
+	}
+	.content-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+		color: #cecdcc;
+	}
+	.logo-footer{
+		width: 54%;
+	    padding-left: 4px;
+	    padding-top: 19px;
+	    margin-left: 52px;
+	}
+	.footer-text h1{
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+	}
+	.footer-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+	}
+
+}
+@media (max-width: 575px) {
+	.footer{
+		width: 100%;
+		height: 31%;
+		background-color: #e2ecf4;
+	}
+	.content-text h1{
+		margin :-15px;
+		font-family: 'Lilita One', serif;
+		padding-top: 40px;
+		color: #ffaa6b;
+		font-size: 100px;
+	}
+	.content-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 36px;
+		color: #cecdcc;
+	}
+	.logo-footer{
+		width: 14%;
+	    padding-left: 4px;
+	    padding-top: 11px;
+	    margin-left: 10px;
+	}
+	.footer-text h1{
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		margin-bottom: -7px;
+	}
+	.footer-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		margin-bottom: -7px;
+	}
+}
+@media (max-width: 375px) {
+	.footer{
+		width: 100%;
+		height: 35%;
+		background-color: #e2ecf4;
+	}
+	.content-text h1{
+		margin: -16px;
+	    font-family: 'Lilita One', serif;
+	    padding-top: 70px;
+	    color: #ffaa6b;
+	    font-size: 80px;
+	}
+	.content-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 28px;
+		color: #cecdcc;
+	}
+	.logo-footer{
+		width: 14%;
+	    padding-left: 4px;
+	    padding-top: 11px;
+	    margin-left: 10px;
+	}
+	.footer-text h1{
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		margin-bottom: -7px;
+	}
+	.footer-text p{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		margin-bottom: -7px;
+	}
+}
+
+
+
