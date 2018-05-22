@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <h1 class="text-center font-weight-bold text-uppercase">create it</h1>
                     <p class="text-center text-capitalize">create it at your creation </p>
-					<p class="text-center text-capitalize">create it at your creatiosn </p>
+					<p class="text-center text-capitalize">create it at your  </p>
 					
                 </div>
             </div>
